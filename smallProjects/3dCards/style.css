@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Raleway', sans-serif;
+  background: #eee;
+}
+
+.wrapper {
+  height: 100vh;
+  perspective: 700px;
+}
+
+.st4 {
+  fill: #f8c56f;
+  opacity: 1;
+}
+
+.st5,
+.st7 {
+  fill: #fff;
+}
+
+#sh2 {
+  opacity: 0.5;
+}
+
+#sh3 {
+  opacity: 0.3;
+}
+
+.st6 {
+  fill: #59476f;
+}
+
+.st10 {
+  fill: #c5a7e5;
+  stroke: #222;
+}
+
+.st11 {
+  stroke: #212121;
+  opacity: 0.5;
+}
+
+#sh1 {
+  fill: #f8c56f;
+  opacity: 0.4;
+}
+
+.st0 {
+  fill: #a25a62;
+  stroke: none;
+  stroke-miterlimit: 10;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 600px;
+  transition: 0.5s all ease;
+  /* border-radius: 10px; */
+  cursor: pointer;
+  background: linear-gradient(to bottom, #eba65b 30%, #d99267 100%);
+  box-shadow: 0px 20px 70px #555;
+  perspective: 900px;
+  transform: translate(-50%, -50%) rotateX(60deg) scale(0.7);
+}
+
+.card-p,
+.card-h {
+  color: #eee;
+}
+
+.container:hover {
+  transform: translate(-50%, -50%) rotateX(0deg) scale(1) translateY(10px);
+  transition: 0.5s all ease;
+  z-index: 400;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 20px 20px 20px;
+  justify-content: center;
+}
